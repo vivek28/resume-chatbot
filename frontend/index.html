@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivekanandhan S — Ask Me Anything</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Vivekanandhan S</h1>
+    <p class="title">Business Intelligence & Analytics Professional</p>
+    <p class="subtitle">BI &amp; Analytics · 10+ yrs · Amazon · Bangalore</p>
+    <div class="header-actions">
+      <a class="header-btn" href="resume.pdf" target="_blank" rel="noopener">View Résumé (PDF)</a>
+      <a class="header-btn" href="resume.pdf" download="Vivekanandhan_S_Resume.pdf">Download</a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar sidebar-left">
+      <section class="sidebar-section" aria-label="Frequently Asked Questions">
+        <h3>Frequently Asked</h3>
+        <div id="faq-list" class="faq-list">
+          <p class="faq-empty">Loading&hellip;</p>
+        </div>
+      </section>
+
+      <section class="sidebar-section" aria-label="Suggested Questions">
+        <h3>Suggested Questions</h3>
+        <div id="suggestions" class="suggestions"></div>
+      </section>
+    </aside>
+
+    <section id="chat-section" class="chat-section" aria-label="Chat">
+      <h2>Ask About Vivek</h2>
+
+      <div id="chat-window" class="chat-window">
+        <div id="messages" class="messages"></div>
+        <div id="typing-indicator" class="typing-indicator" hidden>
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <form id="chat-form" class="chat-form">
+        <input
+          id="chat-input"
+          type="text"
+          placeholder="Ask a question about Vivek's experience..."
+          autocomplete="off"
+          maxlength="1000"
+        />
+        <button type="submit" id="send-button">Send</button>
+      </form>
+      <p id="chat-error" class="chat-error" hidden></p>
+    </section>
+
+    <aside class="sidebar sidebar-right">
+      <section class="sidebar-section" aria-label="Workflows">
+        <h3>Workflows</h3>
+        <button type="button" class="workflow-btn" id="jd-fit-button">Check Job Fit</button>
+      </section>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>Powered by Claude · Built by Vivek</p>
+  </footer>
+
+  <div id="jd-fit-modal" class="modal-overlay" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-label="Job Fit Check">
+      <button type="button" class="modal-close" id="jd-fit-modal-close" aria-label="Close">&times;</button>
+      <div class="jd-fit-label">Job Fit Check</div>
+      <div id="jd-fit-modal-content" class="modal-content"></div>
+      <button type="button" class="modal-ok-btn" id="jd-fit-modal-ok">OK</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

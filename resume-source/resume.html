@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Vivekanandhan S — Resume</title>
+<style>
+  @page { size: A4; margin: 11mm 15mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    color: #1f2937;
+    font-size: 9.7pt;
+    line-height: 1.28;
+    margin: 0;
+  }
+  .name { font-size: 20pt; font-weight: 700; color: #0f3a58; margin: 0; letter-spacing: 0.01em; }
+  .title { font-size: 11.5pt; font-weight: 600; color: #16537e; margin: 1px 0 4px; }
+  .contact { font-size: 8.6pt; color: #4b5563; margin: 0 0 7px; }
+  .contact a { color: #16537e; text-decoration: none; }
+
+  h2 {
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #16537e;
+    border-bottom: 1.5px solid #16537e;
+    padding-bottom: 1px;
+    margin: 8px 0 4px;
+  }
+  h2:first-of-type { margin-top: 5px; }
+
+  .summary { margin: 0 0 3px; }
+
+  .achievements {
+    display: flex;
+    gap: 10px;
+    margin: 5px 0 1px;
+  }
+  .achievement {
+    flex: 1;
+    background: #eef4f8;
+    border-left: 3px solid #16537e;
+    padding: 4px 8px;
+    font-size: 8.4pt;
+  }
+  .achievement b { display: block; color: #0f3a58; font-size: 11pt; margin-bottom: 0; }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 8px;
+    row-gap: 2px;
+    font-size: 8.8pt;
+  }
+  .skills-grid .label { font-weight: 700; color: #0f3a58; white-space: nowrap; }
+
+  .role { margin-bottom: 5px; }
+  .role-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0;
+  }
+  .role-title { font-weight: 700; font-size: 10pt; }
+  .role-org { font-weight: 500; color: #374151; }
+  .role-dates { font-size: 8.6pt; color: #6b7280; white-space: nowrap; }
+
+  ul { margin: 2px 0 0; padding-left: 14px; }
+  li { margin-bottom: 1px; }
+
+  .edu-line { display: flex; justify-content: space-between; }
+</style>
+</head>
+<body>
+
+  <p class="name">VIVEKANANDHAN S</p>
+  <p class="title">Business Intelligence &amp; Data Engineer</p>
+  <p class="contact">
+    anandhan.vivek91@gmail.com &nbsp;|&nbsp; +91 9791074202 &nbsp;|&nbsp; Bangalore, India &nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/vivekanandhan-srinivasan-57713055">linkedin.com/in/vivekanandhan-srinivasan-57713055</a>
+  </p>
+
+  <h2>Summary</h2>
+  <p class="summary">
+    Senior Business Intelligence &amp; Data Engineer with 10+ years designing scalable data
+    platforms and ETL pipelines for Fortune 500 companies. Expert in SQL and data analysis, with
+    hands-on experience across AWS, PySpark, and Airflow, and a consistent track record of
+    eliminating 80%+ manual effort through automation and mentoring technical teams.
+  </p>
+
+  <div class="achievements">
+    <div class="achievement"><b>50+</b>stakeholders supported across SEO, Marketing, Finance &amp; Operations</div>
+    <div class="achievement"><b>500+</b>hours of manual work eliminated annually through automation</div>
+    <div class="achievement"><b>$2M+</b>in potential revenue recovery identified through data-driven analysis</div>
+  </div>
+
+  <h2>Technical Skills</h2>
+  <div class="skills-grid">
+    <div class="label">Data Engineering:</div><div>PySpark, AWS Glue, ETL Pipeline Development, Spark SQL, Data Warehouse Architecture</div>
+    <div class="label">Cloud (AWS):</div><div>Redshift, S3, Athena, IAM, Lambda, Snowflake-compatible architectures</div>
+    <div class="label">Orchestration:</div><div>Apache Airflow</div>
+    <div class="label">Analytics:</div><div>SQL, Python (Pandas), R, SAS</div>
+    <div class="label">Visualization:</div><div>Tableau, R Shiny</div>
+    <div class="label">Tools:</div><div>Git, MS Excel (Advanced)</div>
+  </div>
+
+  <h2>Professional Experience</h2>
+
+  <div class="role">
+    <div class="role-header">
+      <span class="role-title">Business Intelligence &amp; Data Engineer</span>
+      <span class="role-dates">Sep 2017 – Present</span>
+    </div>
+    <div class="role-org">Amazon | Bangalore, India</div>
+    <ul>
+      <li>Pioneered AI-agent-driven pipeline automation using Amazon's internal MCP servers — cut manual oversight 60%, MTTR 40%, and eliminated manual intervention for 80% of routine pipeline failures</li>
+      <li>Led end-to-end data platform modernization for Ring IoT Battery Life Analytics, processing telemetry from 1M+ devices via PySpark/Airflow — cut Alpha/Beta trial analysis time by 70%</li>
+      <li>Architected the Cross-Border Analysis framework across 5+ marketplaces, identifying $2M+ in potential revenue recovery opportunities</li>
+      <li>Built automated pipelines de-indexing 10,000+ permanently out-of-stock ASINs, improving search experience quality by 15%</li>
+      <li>Partnered with Data Science to architect ETL for Benchmark Conversion Rate modeling — surfaced 500+ high-opportunity/risk keywords quarterly, driving a 20% improvement in Top 3 SERP rankings</li>
+      <li>Built Crawl Analysis infrastructure across 15+ technical factors, improving crawl efficiency by 25%</li>
+      <li>Developed the Keyword Ranking SOP Tool (R Shiny), used by 20+ SEO Managers, cutting analysis time from 4 hours to 15 minutes</li>
+      <li>Automated Bad Debt and Weekly Business Review reporting (Redshift/Tableau), eliminating 100+ hours of manual work annually</li>
+      <li>Mentored 2 business analysts and 1 BI Engineer on SQL, ETL, and self-service tool development, cutting escalations and ad-hoc requests by up to 50%</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-header">
+      <span class="role-title">Healthcare Data Analyst</span>
+      <span class="role-dates">Sep 2016 – Sep 2017</span>
+    </div>
+    <div class="role-org">SCIO Health Analytics | Chennai, India</div>
+    <ul>
+      <li>Led automation of Daily Input File QC for 10+ healthcare clients, cutting manual QC effort by 75% and data errors by 40%</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-header">
+      <span class="role-title">Senior Analyst</span>
+      <span class="role-dates">Aug 2015 – Aug 2016</span>
+    </div>
+    <div class="role-org">Maersk Global Service Center | Chennai, India</div>
+    <ul>
+      <li>Automated Daily Account Receivables reporting, cutting report generation time from 3 hours to 15 minutes across 15+ regions</li>
+    </ul>
+  </div>
+
+  <div class="role">
+    <div class="role-header">
+      <span class="role-title">Business Analyst</span>
+      <span class="role-dates">Oct 2012 – Aug 2015</span>
+    </div>
+    <div class="role-org">Mu Sigma | Bangalore, India</div>
+    <ul>
+      <li>Led A/B testing and cohort analysis on a 2M+ user base for a professional networking platform, driving an 18% increase in premium subscription conversions</li>
+      <li>Analyzed product cannibalization effects for a leading IT solutions provider, identifying 200+ ideal customer profiles for cross-sell/upsell campaigns</li>
+    </ul>
+  </div>
+
+  <h2>Education</h2>
+  <div class="edu-line">
+    <span><b>Bachelor of Engineering, Electronics &amp; Instrumentation Engineering</b> — Madras Institute of Technology, Anna University, Chennai</span>
+    <span class="role-dates">2008 – 2012</span>
+  </div>
+
+</body>
+</html>

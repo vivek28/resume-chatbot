@@ -1,0 +1,19 @@
+# Internal build diary — not for public repo (contains account IDs, home address, cost notes)
+CLAUDE.md
+
+# Live AWS credentials — never commit
+resume-chatbot-dev_accessKeys.csv
+*.csv
+
+# Build artifacts — regenerate from source instead of committing
+lambda/function.zip
+lambda/__pycache__/
+**/__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store
+
+# Local env files, just in case
+.env
+.env.*
