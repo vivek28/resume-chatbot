@@ -131,8 +131,17 @@ def _response(status, body):
     }
 
 
+# Unambiguous wh-word/pronoun contractions only ("Vivek's" etc. is a possessive,
+# never expanded) — collapses "What's X" and "What is X" into the same FAQ bucket.
+_CONTRACTION_PATTERN = re.compile(
+    r"\b(what|who|how|where|when|why|that|it|here|there)'s\b"
+)
+
+
 def _normalize_question(question):
-    return re.sub(r"\s+", " ", question.strip().lower())
+    normalized = re.sub(r"\s+", " ", question.strip().lower())
+    normalized = _CONTRACTION_PATTERN.sub(r"\1 is", normalized)
+    return normalized.rstrip("?!. ")
 
 
 def _question_hash(question):
