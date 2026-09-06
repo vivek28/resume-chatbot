@@ -13,8 +13,7 @@ BI/analytics scripting into real distributed data processing.
   broader pattern of automating manual reporting processes (see `career/` for examples at
   Maersk, SCIO Health, and Amazon)
 - **AWS Glue** — ETL pipeline development as part of his AWS data engineering stack
-- **Data Warehouse Architecture** — including Snowflake-compatible architecture design,
-  alongside his primary Redshift work
+- **Data Warehouse Architecture** — primarily Redshift-based design work
 - **R / R Shiny** — used for the Keyword Ranking SOP Tool and the Ring IoT self-service
   analytics tool at Amazon; also SAS earlier in his career at Mu Sigma and SCIO Health
 

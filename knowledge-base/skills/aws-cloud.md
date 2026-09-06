@@ -10,8 +10,6 @@
   system and the Ring IoT automated metrics delivery system (see `career/amazon.md`), plus this
   resume chatbot's own backend
 - **IoT Core** — used in personal projects (e.g. sensor/IoT work)
-- **Snowflake-compatible data warehouse architectures** — designed alongside his primary
-  Redshift work
 
 ## Context
 Most of this AWS experience comes from building and maintaining BI/data engineering
